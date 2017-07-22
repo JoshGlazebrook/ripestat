@@ -15,7 +15,7 @@
   "scripts": {
     "lint": "tslint -p tslint.json",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tslint -p tslint.json & prettier --single-quote --print-width 120 --write ./src/**/*.ts && tsc -p ."
+    "build": "tslint -p tslint.json & prettier --single-quote --print-width 150 --write ./src/**/*.ts && tsc -p ."
   },
   "author": "Josh Glazebrook",
   "license": "MIT",
