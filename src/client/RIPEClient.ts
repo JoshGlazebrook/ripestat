@@ -89,7 +89,12 @@ class RIPEClient {
  * @param {object} options The options (url params values) to use.
  * @param {object} defaultOptions The default options (url params values) to use.
  */
-  private static _performAPIRequest<T>(client: rest.Client, path: string, options: object, defaultOptions?: object): Promise<RIPEResponse<T>> {
+  private static _performAPIRequest<T>(
+    client: rest.Client,
+    path: string,
+    options: object,
+    defaultOptions?: object
+  ): Promise<RIPEResponse<T>> {
     return client({
       path,
       params: {
@@ -107,7 +112,11 @@ class RIPEClient {
    * @param { AbuseContactFinderOptions } options
    */
   abuseContactFinder(options: data.AbuseContactFinderOptions): Promise<RIPEResponse<data.AbuseContactFinderResponse>> {
-    return RIPEClient._performAPIRequest<data.AbuseContactFinderResponse>(this.client, ENDPOINTS.ABUSE_CONTACT_FINDER, options);
+    return RIPEClient._performAPIRequest<data.AbuseContactFinderResponse>(
+      this.client,
+      ENDPOINTS.ABUSE_CONTACT_FINDER,
+      options
+    );
   }
 
   /**
@@ -115,8 +124,14 @@ class RIPEClient {
    *
    * @param { AddresSpaceHierarchyOptions } options
    */
-  addressSpaceHierarchy(options: data.AddressSpaceHierarchyOptions): Promise<RIPEResponse<data.AddressSpaceHierarchyResponse>> {
-    return RIPEClient._performAPIRequest<data.AddressSpaceHierarchyResponse>(this.client, ENDPOINTS.ADDRESS_SPACE_HIERARCHY, options);
+  addressSpaceHierarchy(
+    options: data.AddressSpaceHierarchyOptions
+  ): Promise<RIPEResponse<data.AddressSpaceHierarchyResponse>> {
+    return RIPEClient._performAPIRequest<data.AddressSpaceHierarchyResponse>(
+      this.client,
+      ENDPOINTS.ADDRESS_SPACE_HIERARCHY,
+      options
+    );
   }
 
   /**
@@ -125,7 +140,11 @@ class RIPEClient {
    * @param { AddressSpaceUsageOptions } options
    */
   addressSpaceUsage(options: data.AddressSpaceUsageOptions): Promise<RIPEResponse<data.AddressSpaceUsageResponse>> {
-    return RIPEClient._performAPIRequest<data.AddressSpaceUsageResponse>(this.client, ENDPOINTS.ADDRESS_SPACE_USAGE, options);
+    return RIPEClient._performAPIRequest<data.AddressSpaceUsageResponse>(
+      this.client,
+      ENDPOINTS.ADDRESS_SPACE_USAGE,
+      options
+    );
   }
 
   /**
@@ -134,7 +153,11 @@ class RIPEClient {
    * @param { AllocationHistoryOptions } options
    */
   allocationHistory(options: data.AllocationHistoryOptions): Promise<RIPEResponse<data.AllocationHistoryResponse>> {
-    return RIPEClient._performAPIRequest<data.AllocationHistoryResponse>(this.client, ENDPOINTS.ALLOCATION_HISTORY, options);
+    return RIPEClient._performAPIRequest<data.AllocationHistoryResponse>(
+      this.client,
+      ENDPOINTS.ALLOCATION_HISTORY,
+      options
+    );
   }
 
   /**
@@ -143,7 +166,11 @@ class RIPEClient {
    * @param { AnnouncedPrefixesOptions } options
    */
   announcedPrefixes(options: data.AnnouncedPrefixesOptions): Promise<RIPEResponse<data.AnnouncedPrefixesResponse>> {
-    return RIPEClient._performAPIRequest<data.AnnouncedPrefixesResponse>(this.client, ENDPOINTS.ANNOUNCED_PREFIXES, options);
+    return RIPEClient._performAPIRequest<data.AnnouncedPrefixesResponse>(
+      this.client,
+      ENDPOINTS.ANNOUNCED_PREFIXES,
+      options
+    );
   }
 
   /**
@@ -169,8 +196,14 @@ class RIPEClient {
    *
    * @param { ASRoutingConsistencyOptions } options
    */
-  asRoutingConsistency(options: data.ASRoutingConsistencyOptions): Promise<RIPEResponse<data.ASRoutingConsistencyResponse>> {
-    return RIPEClient._performAPIRequest<data.ASRoutingConsistencyResponse>(this.client, ENDPOINTS.AS_ROUTING_CONSISTENCY, options);
+  asRoutingConsistency(
+    options: data.ASRoutingConsistencyOptions
+  ): Promise<RIPEResponse<data.ASRoutingConsistencyResponse>> {
+    return RIPEClient._performAPIRequest<data.ASRoutingConsistencyResponse>(
+      this.client,
+      ENDPOINTS.AS_ROUTING_CONSISTENCY,
+      options
+    );
   }
 
   /**
@@ -187,8 +220,14 @@ class RIPEClient {
    *
    * @param { ASNNeighborsHistoryOptions } options
    */
-  asnNeighborsHistory(options: data.ASNNeighborsHistoryOptions): Promise<RIPEResponse<data.ASNNeighborsHistoryResponse>> {
-    return RIPEClient._performAPIRequest<data.ASNNeighborsHistoryResponse>(this.client, ENDPOINTS.ASN_NEIGHBORS_HISTORY, options);
+  asnNeighborsHistory(
+    options: data.ASNNeighborsHistoryOptions
+  ): Promise<RIPEResponse<data.ASNNeighborsHistoryResponse>> {
+    return RIPEClient._performAPIRequest<data.ASNNeighborsHistoryResponse>(
+      this.client,
+      ENDPOINTS.ASN_NEIGHBORS_HISTORY,
+      options
+    );
   }
 
   /**
@@ -197,8 +236,14 @@ class RIPEClient {
    * It supports history, with a general start in 2014.
    * @param { AtlasProbeDeploymentOptions } options
    */
-  atlasProbeDeployment(options: data.AtlasProbeDeploymentOptions): Promise<RIPEResponse<data.AtlasProbeDeploymentResponse>> {
-    return RIPEClient._performAPIRequest<data.AtlasProbeDeploymentResponse>(this.client, ENDPOINTS.ATLAS_PROBE_DEPLOYMENT, options);
+  atlasProbeDeployment(
+    options: data.AtlasProbeDeploymentOptions
+  ): Promise<RIPEResponse<data.AtlasProbeDeploymentResponse>> {
+    return RIPEClient._performAPIRequest<data.AtlasProbeDeploymentResponse>(
+      this.client,
+      ENDPOINTS.ATLAS_PROBE_DEPLOYMENT,
+      options
+    );
   }
 
   /**
@@ -260,7 +305,11 @@ class RIPEClient {
    * @param options { BGPUpdateActivityOptions }
    */
   bgpUpdateActivity(options: data.BGPUpdateActivityOptions): Promise<RIPEResponse<data.BGPUpdateActivityResponse>> {
-    return RIPEClient._performAPIRequest<data.BGPUpdateActivityResponse>(this.client, ENDPOINTS.BGP_UPDATE_ACTIVITY, options);
+    return RIPEClient._performAPIRequest<data.BGPUpdateActivityResponse>(
+      this.client,
+      ENDPOINTS.BGP_UPDATE_ACTIVITY,
+      options
+    );
   }
 
   /**
@@ -294,8 +343,14 @@ class RIPEClient {
    *
    * @param options { CountryResourceStatsOptions }
    */
-  countryResourceStats(options: data.CountryResourceStatsOptions): Promise<RIPEResponse<data.CountryResourceStatsResponse>> {
-    return RIPEClient._performAPIRequest<data.CountryResourceStatsResponse>(this.client, ENDPOINTS.COUNTRY_RESOURCE_STATS, options);
+  countryResourceStats(
+    options: data.CountryResourceStatsOptions
+  ): Promise<RIPEResponse<data.CountryResourceStatsResponse>> {
+    return RIPEClient._performAPIRequest<data.CountryResourceStatsResponse>(
+      this.client,
+      ENDPOINTS.COUNTRY_RESOURCE_STATS,
+      options
+    );
   }
 
   /**
@@ -304,8 +359,14 @@ class RIPEClient {
    *
    * @param options { CountryResourceListOptions }
    */
-  countryResourceList(options: data.CountryResourceListOptions): Promise<RIPEResponse<data.CountryResourceListResponse>> {
-    return RIPEClient._performAPIRequest<data.CountryResourceListResponse>(this.client, ENDPOINTS.COUNTRY_RESOURCE_LIST, options);
+  countryResourceList(
+    options: data.CountryResourceListOptions
+  ): Promise<RIPEResponse<data.CountryResourceListResponse>> {
+    return RIPEClient._performAPIRequest<data.CountryResourceListResponse>(
+      this.client,
+      ENDPOINTS.COUNTRY_RESOURCE_LIST,
+      options
+    );
   }
 
   /**
@@ -339,7 +400,11 @@ class RIPEClient {
    * @param options { GeolocationHistoryOptions }
    */
   gelocationHistory(options: data.GeolocationHistoryOptions): Promise<RIPEResponse<data.GeolocationHistoryResponse>> {
-    return RIPEClient._performAPIRequest<data.GeolocationHistoryResponse>(this.client, ENDPOINTS.GEOLOCATION_HISTORY, options);
+    return RIPEClient._performAPIRequest<data.GeolocationHistoryResponse>(
+      this.client,
+      ENDPOINTS.GEOLOCATION_HISTORY,
+      options
+    );
   }
 
   /**
@@ -356,7 +421,11 @@ class RIPEClient {
    * @param options { IANARegistryInfoOptions }
    */
   ianaRegistryInfo(options: data.IANARegistryInfoOptions): Promise<RIPEResponse<data.IANARegistryInfoResponse>> {
-    return RIPEClient._performAPIRequest<data.IANARegistryInfoResponse>(this.client, ENDPOINTS.IANA_REGISTRY_INFO, options);
+    return RIPEClient._performAPIRequest<data.IANARegistryInfoResponse>(
+      this.client,
+      ENDPOINTS.IANA_REGISTRY_INFO,
+      options
+    );
   }
 
   /**
@@ -374,7 +443,11 @@ class RIPEClient {
    * @param options { MLabActivityCountOptions }
    */
   mLabActivityCount(options: data.MLabActivityCountOptions): Promise<RIPEResponse<data.MLabActivityCountResponse>> {
-    return RIPEClient._performAPIRequest<data.MLabActivityCountResponse>(this.client, ENDPOINTS.MLAB_ACTIVITY_COUNT, options);
+    return RIPEClient._performAPIRequest<data.MLabActivityCountResponse>(
+      this.client,
+      ENDPOINTS.MLAB_ACTIVITY_COUNT,
+      options
+    );
   }
 
   /**
@@ -428,8 +501,14 @@ class RIPEClient {
    *
    * @param options { PrefixRoutingConsistencyOptions }
    */
-  prefixRoutingConsistency(options: data.PrefixRoutingConsistencyOptions): Promise<RIPEResponse<data.PrefixRoutingConsistencyResponse>> {
-    return RIPEClient._performAPIRequest<data.PrefixRoutingConsistencyResponse>(this.client, ENDPOINTS.PREFIX_ROUTING_CONSISTENCY, options);
+  prefixRoutingConsistency(
+    options: data.PrefixRoutingConsistencyOptions
+  ): Promise<RIPEResponse<data.PrefixRoutingConsistencyResponse>> {
+    return RIPEClient._performAPIRequest<data.PrefixRoutingConsistencyResponse>(
+      this.client,
+      ENDPOINTS.PREFIX_ROUTING_CONSISTENCY,
+      options
+    );
   }
 
   /**
@@ -437,8 +516,14 @@ class RIPEClient {
    *
    * @param options { PrefixSizeDistributionyOptions }
    */
-  prefixSizeDistribution(options: data.PrefixSizeDistributionyOptions): Promise<RIPEResponse<data.PrefixSizeDistributionyResponse>> {
-    return RIPEClient._performAPIRequest<data.PrefixSizeDistributionyResponse>(this.client, ENDPOINTS.PREFIX_SIZE_DISTRIBUTION, options);
+  prefixSizeDistribution(
+    options: data.PrefixSizeDistributionyOptions
+  ): Promise<RIPEResponse<data.PrefixSizeDistributionyResponse>> {
+    return RIPEClient._performAPIRequest<data.PrefixSizeDistributionyResponse>(
+      this.client,
+      ENDPOINTS.PREFIX_SIZE_DISTRIBUTION,
+      options
+    );
   }
 
   /**
@@ -447,7 +532,11 @@ class RIPEClient {
    * @param options { RegistryBrowserOptions }
    */
   registryBrowser(options: data.RegistryBrowserOptions): Promise<RIPEResponse<data.RegistryBrowserResponse>> {
-    return RIPEClient._performAPIRequest<data.RegistryBrowserResponse>(this.client, ENDPOINTS.REGISTRY_BROWSER, options);
+    return RIPEClient._performAPIRequest<data.RegistryBrowserResponse>(
+      this.client,
+      ENDPOINTS.REGISTRY_BROWSER,
+      options
+    );
   }
 
   /**
@@ -466,8 +555,14 @@ class RIPEClient {
    *
    * @param options { RIRPrefixSizeDistributionOptions }
    */
-  rirPrefixSizeDistribution(options: data.RIRPrefixSizeDistributionOptions): Promise<RIPEResponse<data.RIRPrefixSizeDistributionResponse>> {
-    return RIPEClient._performAPIRequest<data.RIRPrefixSizeDistributionResponse>(this.client, ENDPOINTS.RIR_PREFIX_SIZE_DISTRIBUTION, options);
+  rirPrefixSizeDistribution(
+    options: data.RIRPrefixSizeDistributionOptions
+  ): Promise<RIPEResponse<data.RIRPrefixSizeDistributionResponse>> {
+    return RIPEClient._performAPIRequest<data.RIRPrefixSizeDistributionResponse>(
+      this.client,
+      ENDPOINTS.RIR_PREFIX_SIZE_DISTRIBUTION,
+      options
+    );
   }
 
   /**
@@ -483,8 +578,8 @@ class RIPEClient {
    *
    * @param options { RIRASNSOptions }
    */
-  risASNS(options: data.RIRASNSOptions): Promise<RIPEResponse<data.RIRASNSResponse>> {
-    return RIPEClient._performAPIRequest<data.RIRASNSResponse>(this.client, ENDPOINTS.RIR_ASNS, options);
+  risASNS(options: data.RISASNSOptions): Promise<RIPEResponse<data.RISASNSResponse>> {
+    return RIPEClient._performAPIRequest<data.RISASNSResponse>(this.client, ENDPOINTS.RIS_ASNS, options);
   }
 
   /**
@@ -498,7 +593,11 @@ class RIPEClient {
    * @param options { RISFirstLastSeenOptions }
    */
   risFirstLastSeen(options: data.RISFirstLastSeenOptions): Promise<RIPEResponse<data.RISFirstLastSeenResponse>> {
-    return RIPEClient._performAPIRequest<data.RISFirstLastSeenResponse>(this.client, ENDPOINTS.RIS_FIRST_LAST_SEEN, options);
+    return RIPEClient._performAPIRequest<data.RISFirstLastSeenResponse>(
+      this.client,
+      ENDPOINTS.RIS_FIRST_LAST_SEEN,
+      options
+    );
   }
 
   /**
@@ -536,7 +635,11 @@ class RIPEClient {
    * @param options { RelatedPrefixesOptions }
    */
   relatedPrefixes(options: data.RelatedPrefixesOptions): Promise<RIPEResponse<data.RelatedPrefixesResponse>> {
-    return RIPEClient._performAPIRequest<data.RelatedPrefixesResponse>(this.client, ENDPOINTS.RELATED_PREFIXES, options);
+    return RIPEClient._performAPIRequest<data.RelatedPrefixesResponse>(
+      this.client,
+      ENDPOINTS.RELATED_PREFIXES,
+      options
+    );
   }
 
   /**
@@ -565,8 +668,14 @@ class RIPEClient {
    *
    * @param options { ReverseDNSConsistencyOptions }
    */
-  reverseDNSConsistency(options: data.ReverseDNSConsistencyOptions): Promise<RIPEResponse<data.ReverseDNSConsistencyResponse>> {
-    return RIPEClient._performAPIRequest<data.ReverseDNSConsistencyResponse>(this.client, ENDPOINTS.REVERSE_DNS_CONSISTENCY, options);
+  reverseDNSConsistency(
+    options: data.ReverseDNSConsistencyOptions
+  ): Promise<RIPEResponse<data.ReverseDNSConsistencyResponse>> {
+    return RIPEClient._performAPIRequest<data.ReverseDNSConsistencyResponse>(
+      this.client,
+      ENDPOINTS.REVERSE_DNS_CONSISTENCY,
+      options
+    );
   }
 
   /**
@@ -644,8 +753,14 @@ class RIPEClient {
    *
    * @param options { WhoisObjectLastUpdatedOptions }
    */
-  whoisObjectLastUpdated(options: data.WhoisObjectLastUpdatedOptions): Promise<RIPEResponse<data.WhoisObjectLastUpdatedResponse>> {
-    return RIPEClient._performAPIRequest<data.WhoisObjectLastUpdatedResponse>(this.client, ENDPOINTS.WHOIS_OBJECT_LAST_UPDATED, options);
+  whoisObjectLastUpdated(
+    options: data.WhoisObjectLastUpdatedOptions
+  ): Promise<RIPEResponse<data.WhoisObjectLastUpdatedResponse>> {
+    return RIPEClient._performAPIRequest<data.WhoisObjectLastUpdatedResponse>(
+      this.client,
+      ENDPOINTS.WHOIS_OBJECT_LAST_UPDATED,
+      options
+    );
   }
 }
 
