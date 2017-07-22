@@ -39,7 +39,7 @@ export * from '../data/ReverseDNS';
 export * from '../data/ReverseDNSConsistency';
 export * from '../data/ReverseDNSIP';
 export * from '../data/RIR';
-export * from '../data/RIRASNS';
+export * from '../data/RISASNS';
 export * from '../data/RISFirstLastSeen';
 export * from '../data/RIRPrefixSizeDistribution';
 export * from '../data/RISPeerCount';
