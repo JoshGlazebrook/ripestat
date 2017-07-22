@@ -1,0 +1,29 @@
+{
+  "name": "ripestat",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A fully featured client for the RIPE Stat Api.",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoshGlazebrook/ripestat"
+  },
+  "bugs": {
+    "url": "https://github.com/JoshGlazebrook/ripestat/issues"
+  },
+  "keywords": ["ripestat", "ripe", "ris", "asn", "prefix", "ipv4", "ipv6", "apnic", "arin", "lacnic", "afrinic"],
+  "scripts": {
+    "lint": "tslint -p tslint.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tslint -p tslint.json & prettier --single-quote --print-width 120 --write ./src/**/*.ts && tsc -p ."
+  },
+  "author": "Josh Glazebrook",
+  "license": "MIT",
+  "typings": "typings",
+  "dependencies": {
+    "rest": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.9"
+  }
+}
