@@ -46,7 +46,7 @@ const ENDPOINTS = {
   REGISTRY_BROWSER: '/registry-browser/data.json{?resource,use_live_lookups}',
   RIR: '/rir/data.json{?resource,starttime,endtime,lod}',
   RIR_PREFIX_SIZE_DISTRIBUTION: '/rir-prefix-size-distribution/data.json{?resource,query_time}',
-  RIR_ASNS: '/rir-asns/data.json{?query_time,list_asns,asn_types}',
+  RIS_ASNS: '/ris-asns/data.json{?query_time,list_asns,asn_types}',
   RIS_FIRST_LAST_SEEN: '/rir-first-last-seen/data.json{?resource,include}',
   RIS_PREFIXES: '/rir-prefixes/data.json{?resource,query_time,list_prefixes,types,af,noise}',
   RIS_PEERINGS: '/ris-peerings/data.json{?resource,query_time}',

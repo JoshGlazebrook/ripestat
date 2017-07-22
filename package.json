@@ -1,6 +1,6 @@
 {
   "name": "ripestat",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A fully featured client for the RIPE Stat Api.",
   "main": "build/index.js",
   "repository": {
@@ -14,7 +14,8 @@
   "scripts": {
     "lint": "tslint -p tslint.json",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tslint -p tslint.json & prettier --single-quote --print-width 150 --write ./src/**/*.ts && tsc -p ."
+    "build": "tslint -p tslint.json & prettier --single-quote --print-width 150 --write ./src/**/*.ts && tsc -p .",
+    "prepublish": "npm run build"
   },
   "author": "Josh Glazebrook",
   "license": "MIT",
