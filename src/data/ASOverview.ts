@@ -1,8 +1,9 @@
 /**
  * See: https://stat.ripe.net/docs/data_api#AsOverview
  */
+import { BaseOptions } from './common/BaseOptions';
 
-export interface ASOverviewOptions {
+export interface ASOverviewOptions extends BaseOptions {
   /**
    * The Autonomous System Number to get information for.
    */

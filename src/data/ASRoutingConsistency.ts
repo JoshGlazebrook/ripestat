@@ -1,8 +1,9 @@
 /**
  * See: https://stat.ripe.net/docs/data_api#AsRoutingConsistency
  */
+import { BaseOptions } from './common/BaseOptions';
 
-export interface ASRoutingConsistencyOptions {
+export interface ASRoutingConsistencyOptions extends BaseOptions {
   /**
    * The Autonomous System Number to get information for.
    */

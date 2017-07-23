@@ -1,8 +1,9 @@
 /**
  * See: https://stat.ripe.net/docs/data_api#AtlasProbeDeployment
  */
+import { BaseOptions } from './common/BaseOptions';
 
-export interface AtlasProbeDeploymentOptions {
+export interface AtlasProbeDeploymentOptions extends BaseOptions {
   /**
      * Region, country, ASN, or mixed value to lookup.
      *

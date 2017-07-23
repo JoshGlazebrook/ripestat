@@ -1,8 +1,9 @@
 /**
  * See: https://stat.ripe.net/docs/data_api#AsPathLength
  */
+import { BaseOptions } from './common/BaseOptions';
 
-export interface ASPathLengthOptions {
+export interface ASPathLengthOptions extends BaseOptions {
   /**
      * The Autonomous System Number to get information for.
      */

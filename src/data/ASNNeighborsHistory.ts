@@ -2,7 +2,9 @@
  * See: https://stat.ripe.net/docs/data_api#AsnNeighboursHistory
  */
 
-export interface ASNNeighborsHistoryOptions {
+import { BaseOptions } from './common/BaseOptions';
+
+export interface ASNNeighborsHistoryOptions extends BaseOptions {
   /**
      * The Autonomous System Number for which to return prefixes.
      */

@@ -1,8 +1,9 @@
 /**
  * See: https://stat.ripe.net/docs/data_api#AtlasTargets
  */
+import { BaseOptions } from './common/BaseOptions';
 
-export interface AtlasTargetsOptions {
+export interface AtlasTargetsOptions extends BaseOptions {
   /**
      * The resource to lookup (prefix, ASN, or country).
      */

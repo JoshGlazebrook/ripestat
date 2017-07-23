@@ -1,8 +1,9 @@
 /**
  * See: https://stat.ripe.net/docs/data_api#BGPlay
  */
+import { BaseOptions } from './common/BaseOptions';
 
-export interface BGPlayOptions {
+export interface BGPlayOptions extends BaseOptions {
   /**
      * The resource to use for the query (Prefix, IP address, AS or a list of valid comma-separated resources).
      *
