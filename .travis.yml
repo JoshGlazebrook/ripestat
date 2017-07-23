@@ -6,7 +6,7 @@ node_js:
   - stable
 
 before_script:
-  - npm install -g typescript
+  - yarn add -g typescript prettier tslint
   - tsc -p ./
 
 script: "npm run test"
