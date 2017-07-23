@@ -1,4 +1,4 @@
-# ripestat  [![Build Status](https://travis-ci.org/JoshGlazebrook/smart-buffer.svg?branch=master)](https://travis-ci.org/JoshGlazebrook/smart-buffer)
+# ripestat  [![Build Status](https://travis-ci.org/JoshGlazebrook/ripestat.svg?branch=master)](https://travis-ci.org/JoshGlazebrook/ripestat)
 A fully featured RIPEStat Data API Client for JavaScript (node.js and browsers).
 
 ## Highlights
