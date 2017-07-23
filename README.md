@@ -16,7 +16,7 @@ A fully featured RIPEStat Data API Client for JavaScript (node.js and browser).
 ## Installing
 
 ```javascript
-yarn add ripestat -S
+yarn add ripestat
 ```
 ```javascript
 npm install ripestat --save
@@ -126,6 +126,9 @@ For details on every API endpoint available please reference [https://stat.ripe.
 
 ## Globally Available Option Params
 - meta - See: [https://stat.ripe.net/docs/data_api#MetaRequest](https://stat.ripe.net/docs/data_api#MetaRequest)
+
+## Bug Reporting
+Please feel free to open any issues if you find any problems with the Client or even the documentation.
 
 ## License
 
