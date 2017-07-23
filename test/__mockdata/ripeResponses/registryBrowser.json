@@ -1,0 +1,133 @@
+{
+  "num_versions": 0,
+  "resource": "inetnum:193.0.20.0 - 193.0.20.255",
+  "backward_refs": {},
+  "database": "RIPE",
+  "forward_refs_summary": {},
+  "versions": [],
+  "terms_and_conditions": "",
+  "historic_queries_allowed": true,
+  "complete_history": true,
+  "objects": [],
+  "time": "2017-07-22T23:20:00",
+  "forward_refs": [],
+  "backward_refs_summary": {},
+  "suggestions": [
+    {
+      "key": "193.0.16.0 - 193.0.21.255",
+      "deleted": false,
+      "fields": [
+        {
+          "value": "inetnum",
+          "key": "193.0.16.0-193.0.21.255"
+        },
+        {
+          "value": "netname",
+          "key": "RIPE-NCC"
+        },
+        {
+          "value": "descr",
+          "key": "RIPE Network Coordination Centre"
+        },
+        {
+          "value": "descr",
+          "key": "Amsterdam, Netherlands"
+        },
+        {
+          "value": "remarks",
+          "key": "Used for RIPE NCC infrastructure."
+        },
+        {
+          "value": "country",
+          "key": "NL"
+        },
+        {
+          "value": "admin-c",
+          "key": "JDR-RIPE"
+        },
+        {
+          "value": "admin-c",
+          "key": "BRD-RIPE"
+        },
+        {
+          "value": "tech-c",
+          "key": "OPS4-RIPE"
+        },
+        {
+          "value": "status",
+          "key": "ASSIGNED PA"
+        },
+        {
+          "value": "mnt-by",
+          "key": "RIPE-NCC-MNT"
+        },
+        {
+          "value": "created",
+          "key": "2017-01-12T15:25:50Z"
+        },
+        {
+          "value": "last-modified",
+          "key": "2017-01-12T15:25:50Z"
+        },
+        {
+          "value": "source",
+          "key": "RIPE"
+        }
+      ],
+      "primary": {
+        "value": "193.0.16.0 - 193.0.21.255",
+        "key": "inetnum"
+      },
+      "to_time": "",
+      "latest": true,
+      "type": "inetnum",
+      "from_time": "",
+      "revision": ""
+    },
+    {
+      "key": "193.0.20.0/23/AS3333",
+      "deleted": false,
+      "fields": [
+        {
+          "value": "route",
+          "key": "193.0.20.0/23"
+        },
+        {
+          "value": "descr",
+          "key": "RIPE-NCC"
+        },
+        {
+          "value": "origin",
+          "key": "3333"
+        },
+        {
+          "value": "mnt-by",
+          "key": "RIPE-NCC-MNT"
+        },
+        {
+          "value": "created",
+          "key": "2008-12-19T16:57:56Z"
+        },
+        {
+          "value": "last-modified",
+          "key": "2008-12-19T16:57:56Z"
+        },
+        {
+          "value": "source",
+          "key": "RIPE"
+        }
+      ],
+      "primary": {
+        "value": "193.0.20.0/23/AS3333",
+        "key": "route"
+      },
+      "to_time": "",
+      "latest": true,
+      "type": "route",
+      "from_time": "",
+      "revision": ""
+    }
+  ],
+  "now": "2017-07-22T23:20:00",
+  "truncated": []
+}

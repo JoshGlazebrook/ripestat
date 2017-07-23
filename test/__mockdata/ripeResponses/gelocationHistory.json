@@ -1,0 +1,77 @@
+{
+  "query_endtime": "2017-07-31T23:59:59",
+  "query_starttime": "2017-01-01T00:00:00",
+  "months": [
+    {
+      "distributions": [
+        {
+          "city": "Amsterdam",
+          "percentage": 100,
+          "country": "NL"
+        }
+      ],
+      "month": "2017-01-01T00:00:00"
+    },
+    {
+      "distributions": [
+        {
+          "city": "Amsterdam",
+          "percentage": 100,
+          "country": "NL"
+        }
+      ],
+      "month": "2017-02-01T00:00:00"
+    },
+    {
+      "distributions": [
+        {
+          "city": "Amsterdam",
+          "percentage": 100,
+          "country": "NL"
+        }
+      ],
+      "month": "2017-03-01T00:00:00"
+    },
+    {
+      "distributions": [
+        {
+          "city": "Amsterdam",
+          "percentage": 100,
+          "country": "NL"
+        }
+      ],
+      "month": "2017-04-01T00:00:00"
+    },
+    {
+      "distributions": [
+        {
+          "city": "Amsterdam",
+          "percentage": 100,
+          "country": "NL"
+        }
+      ],
+      "month": "2017-05-01T00:00:00"
+    },
+    {
+      "distributions": [
+        {
+          "city": "Amsterdam",
+          "percentage": 100,
+          "country": "NL"
+        }
+      ],
+      "month": "2017-06-01T00:00:00"
+    },
+    {
+      "distributions": [
+        {
+          "city": "Amsterdam",
+          "percentage": 100,
+          "country": "NL"
+        }
+      ],
+      "month": "2017-07-01T00:00:00"
+    }
+  ],
+  "resource": "193.0.0.0/23"
+}

@@ -1,0 +1,31 @@
+{
+  "query_time": "2017-07-22T23:14:00",
+  "resource": "193.0.0.0/21",
+  "less_specifics": ["193.0.0.0-193.0.23.255"],
+  "global_network_info": {
+    "source": "IANA IPv4 Address Space Registry",
+    "source_url": "http://www.iana.org/assignments/ipv4-address-space/ipv4-address-space.csv",
+    "description": "RIPE NCC (Status: ALLOCATED)",
+    "name": "RIPE NCC (Status: ALLOCATED)"
+  },
+  "special_resources": [],
+  "anti_abuse_contacts": {
+    "objects_with_remarks": [],
+    "abuse_c": [
+      {
+        "description": "abuse-c",
+        "key": "OPS4-RIPE",
+        "email": "abuse@ripe.net"
+      }
+    ],
+    "extracted_emails": [],
+    "emails": []
+  },
+  "holder_info": {
+    "resource": "193.0.0.0 - 193.0.7.255",
+    "name": "RIPE-NCC"
+  },
+  "authorities": ["ripe"],
+  "blacklist_info": [],
+  "more_specifics": []
+}

@@ -1,0 +1,31 @@
+{
+  "query_time": "2017-07-21T00:00:00",
+  "resource": "193.0.0.0/23",
+  "rir": "ripe",
+  "total_more_specific": 0,
+  "less_specific": [
+    {
+      "status": "ASSIGNED PA",
+      "descr": "RIPE Network Coordination Centre\nAmsterdam, Netherlands",
+      "created": "2003-03-17T12:15:57Z",
+      "country": "NL",
+      "org": "ORG-RIEN1-RIPE",
+      "last-modified": "2017-06-07T07:36:23Z",
+      "tech-c": "OPS4-RIPE",
+      "inetnum": "193.0.0.0/21",
+      "netname": "RIPE-NCC",
+      "remarks": "Used for RIPE NCC infrastructure.",
+      "mnt-by": "RIPE-NCC-MNT",
+      "admin-c": "JDR-RIPE\nBRD-RIPE",
+      "source": "RIPE"
+    }
+  ],
+  "last_updated": [
+    {
+      "date": "2017-06-07T07:36:23",
+      "ip_space": "193.0.0.0/21"
+    }
+  ],
+  "more_specific": [],
+  "exact": []
+}

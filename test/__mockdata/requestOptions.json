@@ -1,0 +1,164 @@
+{
+  "abuseContactFinder": {
+    "resource": "193/23"
+  },
+  "addressSpaceHierarchy": {
+    "resource": "193/23"
+  },
+  "addressSpaceUsage": {
+    "resource": "193/23"
+  },
+  "allocationHistory": {
+    "resource": "140.78/16"
+  },
+  "announcedPrefixes": {
+    "resource": "AS3333"
+  },
+  "asOverview": {
+    "resource": "AS3333"
+  },
+  "asPathLength": {
+    "resource": "AS3333"
+  },
+  "asRoutingConsistency": {
+    "resource": "AS3333"
+  },
+  "asnNeighbors": {
+    "resource": "AS1205"
+  },
+  "asnNeighborsHistory": {
+    "resource": "AS1205"
+  },
+  "atlasProbeDeployment": {
+    "resource": "cc_nl"
+  },
+  "atlasProbes": {
+    "resource": "at"
+  },
+  "atlasTargets": {
+    "resource": "140.78/16"
+  },
+  "bgPlay": {
+    "resource": "140.78/16"
+  },
+  "bgpState": {
+    "resource": "140.78/16"
+  },
+  "bgpUpdates": {
+    "resource": "140.78/16"
+  },
+  "bgpUpdateActivity": {
+    "resource": "140.78/16"
+  },
+  "blacklist": {
+    "resource": "193/23"
+  },
+  "countryASNS": {
+    "resource": "nl"
+  },
+  "countryResourceStats": {
+    "resource": "at"
+  },
+  "countryResourceList": {
+    "resource": "at"
+  },
+  "dnsChain": {
+    "resource": "www.ripe.net"
+  },
+  "exampleResources": {},
+  "geolocation": {
+    "resource": "193/23"
+  },
+  "gelocationHistory": {
+    "resource": "193/23"
+  },
+  "ianaRegistryInfo": {
+    "resource": "193/23"
+  },
+  "lookingGlass": {
+    "resource": "140.78.0.0/16"
+  },
+  "mLabActivityCount": {
+    "resource": "193.0.0.0/16"
+  },
+  "mLabBandwidth": {
+    "resource": "cy"
+  },
+  "mLabClients": {
+    "resource": "193.0.0.0/16"
+  },
+  "networkInfo": {
+    "resource": "140.78.90.50"
+  },
+  "prefixCount": {
+    "resource": "AS3333"
+  },
+  "prefixOverview": {
+    "resource": "193/23"
+  },
+  "prefixRoutingConsistency": {
+    "resource": "193.0.20.0/24"
+  },
+  "prefixSizeDistribution": {
+    "resource": "AS3333"
+  },
+  "registryBrowser": {
+    "resource": "193.0.20.0/24"
+  },
+  "rir": {
+    "resource": "193.0.0.0/16"
+  },
+  "rirPrefixSizeDistribution": {
+    "resource": "140.0.0.0/8"
+  },
+  "risASNS": {
+    "list_asns": true,
+    "asn_types": "o,t"
+  },
+  "risFirstLastSeen": {
+    "resource": "193.0.20.0/23"
+  },
+  "risPrefixes": {
+    "resource": "3333"
+  },
+  "risPeerings": {
+    "resource": "140.78.0.0/16"
+  },
+  "risPeerCount": {},
+  "relatedPrefixes": {
+    "resource": "140.78.0.0/16"
+  },
+  "reverseDNS": {
+    "resource": "193.0.0.0/21"
+  },
+  "reverseDNSIP": {
+    "resource": "193.0.6.139"
+  },
+  "reverseDNSConsistency": {
+    "resource": "193.0.0.0/21"
+  },
+  "routingHistory": {
+    "resource": "AS3333"
+  },
+  "routingStatus": {
+    "resource": "AS3333"
+  },
+  "searchComplete": {
+    "resource": "RIPE"
+  },
+  "speedCheckerBandwidthMeasurements": {
+    "resource": "140.78/16"
+  },
+  "visibility": {
+    "resource": "140.78.0.0/16"
+  },
+  "whatsMyIp": {},
+  "whois": {
+    "resource": "192.0.20/23"
+  },
+  "whoisObjectLastUpdated": {
+    "object": "AS3333",
+    "type": "aut-num",
+    "source": "RIPE"
+  }
+}

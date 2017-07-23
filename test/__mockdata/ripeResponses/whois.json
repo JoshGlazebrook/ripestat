@@ -1,0 +1,371 @@
+{
+  "authorities": [
+    "arin"
+  ],
+  "records": [
+    [
+      {
+        "details_link": null,
+        "value": "192.0.0.0 - 192.255.255.255",
+        "key": "NetRange"
+      },
+      {
+        "details_link": null,
+        "value": "192.0.0.0/8",
+        "key": "CIDR"
+      },
+      {
+        "details_link": null,
+        "value": "NET192",
+        "key": "NetName"
+      },
+      {
+        "details_link": null,
+        "value": "NET-192-0-0-0-0",
+        "key": "NetHandle"
+      },
+      {
+        "details_link": null,
+        "value": "()",
+        "key": "Parent"
+      },
+      {
+        "details_link": null,
+        "value": "Early Registrations, Maintained by ARIN",
+        "key": "NetType"
+      },
+      {
+        "details_link": null,
+        "value": "Various Registries (Maintained by ARIN) (VR-ARIN)",
+        "key": "Organization"
+      },
+      {
+        "details_link": null,
+        "value": "1993-05-01",
+        "key": "RegDate"
+      },
+      {
+        "details_link": "https://whois.arin.net/rest/net/NET-192-0-0-0-0",
+        "value": "https://whois.arin.net/rest/net/NET-192-0-0-0-0",
+        "key": "Ref"
+      },
+      {
+        "details_link": null,
+        "value": "ARIN",
+        "key": "source"
+      }
+    ],
+    [
+      {
+        "details_link": null,
+        "value": "192.0.16.0 - 192.0.31.255",
+        "key": "NetRange"
+      },
+      {
+        "details_link": null,
+        "value": "192.0.16.0/20",
+        "key": "CIDR"
+      },
+      {
+        "details_link": null,
+        "value": "SY-LA-2",
+        "key": "NetName"
+      },
+      {
+        "details_link": null,
+        "value": "NET-192-0-16-0-1",
+        "key": "NetHandle"
+      },
+      {
+        "details_link": null,
+        "value": "NET192 (NET-192-0-0-0-0)",
+        "key": "Parent"
+      },
+      {
+        "details_link": null,
+        "value": "Direct Allocation",
+        "key": "NetType"
+      },
+      {
+        "details_link": null,
+        "value": "AS4436, AS3257, AS6939",
+        "key": "OriginAS"
+      },
+      {
+        "details_link": null,
+        "value": "SERVERYOU INC (SERVE-75)",
+        "key": "Organization"
+      },
+      {
+        "details_link": null,
+        "value": "2012-12-14",
+        "key": "RegDate"
+      },
+      {
+        "details_link": "https://whois.arin.net/rest/net/NET-192-0-16-0-1",
+        "value": "https://whois.arin.net/rest/net/NET-192-0-16-0-1",
+        "key": "Ref"
+      },
+      {
+        "details_link": null,
+        "value": "ARIN",
+        "key": "source"
+      }
+    ],
+    [
+      {
+        "details_link": null,
+        "value": "ABUSE3272-ARIN",
+        "key": "OrgAbuseHandle"
+      },
+      {
+        "details_link": null,
+        "value": "Abuse Department",
+        "key": "OrgAbuseName"
+      },
+      {
+        "details_link": null,
+        "value": "+1-300-899-1233",
+        "key": "OrgAbusePhone"
+      },
+      {
+        "details_link": "mailto:abuse@serveryou.com",
+        "value": "abuse@serveryou.com",
+        "key": "OrgAbuseEmail"
+      },
+      {
+        "details_link": "https://whois.arin.net/rest/poc/ABUSE3272-ARIN",
+        "value": "https://whois.arin.net/rest/poc/ABUSE3272-ARIN",
+        "key": "OrgAbuseRef"
+      },
+      {
+        "details_link": null,
+        "value": "ARIN",
+        "key": "source"
+      }
+    ],
+    [
+      {
+        "details_link": null,
+        "value": "CKN23-ARIN",
+        "key": "OrgAbuseHandle"
+      },
+      {
+        "details_link": null,
+        "value": "No, Contact Known",
+        "key": "OrgAbuseName"
+      },
+      {
+        "details_link": null,
+        "value": "+1-800-555-1234",
+        "key": "OrgAbusePhone"
+      },
+      {
+        "details_link": "mailto:nobody@example.com",
+        "value": "nobody@example.com",
+        "key": "OrgAbuseEmail"
+      },
+      {
+        "details_link": "https://whois.arin.net/rest/poc/CKN23-ARIN",
+        "value": "https://whois.arin.net/rest/poc/CKN23-ARIN",
+        "key": "OrgAbuseRef"
+      },
+      {
+        "details_link": null,
+        "value": "ARIN",
+        "key": "source"
+      }
+    ],
+    [
+      {
+        "details_link": null,
+        "value": "SERVERYOU INC",
+        "key": "OrgName"
+      },
+      {
+        "details_link": null,
+        "value": "SERVE-75",
+        "key": "OrgId"
+      },
+      {
+        "details_link": null,
+        "value": "38958 S Fremont BLVD",
+        "key": "Address"
+      },
+      {
+        "details_link": null,
+        "value": "Fremont",
+        "key": "City"
+      },
+      {
+        "details_link": null,
+        "value": "CA",
+        "key": "StateProv"
+      },
+      {
+        "details_link": null,
+        "value": "94536",
+        "key": "PostalCode"
+      },
+      {
+        "details_link": null,
+        "value": "US",
+        "key": "Country"
+      },
+      {
+        "details_link": null,
+        "value": "2012-04-18",
+        "key": "RegDate"
+      },
+      {
+        "details_link": "https://whois.arin.net/rest/org/SERVE-75",
+        "value": "https://whois.arin.net/rest/org/SERVE-75",
+        "key": "Ref"
+      },
+      {
+        "details_link": null,
+        "value": "ARIN",
+        "key": "source"
+      }
+    ],
+    [
+      {
+        "details_link": null,
+        "value": "Various Registries (Maintained by ARIN)",
+        "key": "OrgName"
+      },
+      {
+        "details_link": null,
+        "value": "VR-ARIN",
+        "key": "OrgId"
+      },
+      {
+        "details_link": null,
+        "value": "3635 Concord Parkway, Suite 200",
+        "key": "Address"
+      },
+      {
+        "details_link": null,
+        "value": "Chantilly",
+        "key": "City"
+      },
+      {
+        "details_link": null,
+        "value": "VA",
+        "key": "StateProv"
+      },
+      {
+        "details_link": null,
+        "value": "20151",
+        "key": "PostalCode"
+      },
+      {
+        "details_link": null,
+        "value": "US",
+        "key": "Country"
+      },
+      {
+        "details_link": null,
+        "value": "1993-05-01",
+        "key": "RegDate"
+      },
+      {
+        "details_link": null,
+        "value": "Address space was assigned by the InterNIC regardless of",
+        "key": "Comment"
+      },
+      {
+        "details_link": null,
+        "value": "geographic region.  The registrations are now being maintained",
+        "key": "Comment"
+      },
+      {
+        "details_link": null,
+        "value": "by various registries, and the in-addr.arpa delegations are",
+        "key": "Comment"
+      },
+      {
+        "details_link": null,
+        "value": "being maintained by ARIN.",
+        "key": "Comment"
+      },
+      {
+        "details_link": "https://whois.arin.net/rest/org/VR-ARIN",
+        "value": "https://whois.arin.net/rest/org/VR-ARIN",
+        "key": "Ref"
+      },
+      {
+        "details_link": null,
+        "value": "ARIN",
+        "key": "source"
+      }
+    ],
+    [
+      {
+        "details_link": null,
+        "value": "CKN23-ARIN",
+        "key": "OrgTechHandle"
+      },
+      {
+        "details_link": null,
+        "value": "No, Contact Known",
+        "key": "OrgTechName"
+      },
+      {
+        "details_link": null,
+        "value": "+1-800-555-1234",
+        "key": "OrgTechPhone"
+      },
+      {
+        "details_link": "mailto:nobody@example.com",
+        "value": "nobody@example.com",
+        "key": "OrgTechEmail"
+      },
+      {
+        "details_link": "https://whois.arin.net/rest/poc/CKN23-ARIN",
+        "value": "https://whois.arin.net/rest/poc/CKN23-ARIN",
+        "key": "OrgTechRef"
+      },
+      {
+        "details_link": null,
+        "value": "ARIN",
+        "key": "source"
+      }
+    ],
+    [
+      {
+        "details_link": null,
+        "value": "TECHD10-ARIN",
+        "key": "OrgTechHandle"
+      },
+      {
+        "details_link": null,
+        "value": "Tech Department",
+        "key": "OrgTechName"
+      },
+      {
+        "details_link": null,
+        "value": "+1-300-899-1233",
+        "key": "OrgTechPhone"
+      },
+      {
+        "details_link": "mailto:tech@serveryou.com",
+        "value": "tech@serveryou.com",
+        "key": "OrgTechEmail"
+      },
+      {
+        "details_link": "https://whois.arin.net/rest/poc/TECHD10-ARIN",
+        "value": "https://whois.arin.net/rest/poc/TECHD10-ARIN",
+        "key": "OrgTechRef"
+      },
+      {
+        "details_link": null,
+        "value": "ARIN",
+        "key": "source"
+      }
+    ]
+  ],
+  "query_time": "2017-07-22T23:20:00",
+  "resource": "192.0.20.0/23",
+  "irr_records": []
+}

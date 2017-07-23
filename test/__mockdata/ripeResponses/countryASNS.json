@@ -1,0 +1,19 @@
+{
+  "resource": [
+    "nl"
+  ],
+  "query_time": "2017-07-22T16:00:00",
+  "latest_time": "2017-07-22T16:00:00",
+  "lod": [
+    "0"
+  ],
+  "countries": [
+    {
+      "resource": "nl",
+      "stats": {
+        "registered": 1186,
+        "routed": 819
+      }
+    }
+  ]
+}

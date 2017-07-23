@@ -1,0 +1,21 @@
+{
+  "query_time": "2017-07-22T16:00:00",
+  "is_less_specific": true,
+  "resource": "193.0.0.0/21",
+  "actual_num_related": 0,
+  "num_filtered_out": 0,
+  "asns": [
+    {
+      "holder": "RIPE-NCC-AS Reseaux IP Europeens Network Coordination Centre (RIPE NCC), NL",
+      "asn": 3333
+    }
+  ],
+  "block": {
+    "resource": "193.0.0.0/8",
+    "name": "IANA IPv4 Address Space Registry",
+    "desc": "RIPE NCC (Status: ALLOCATED)"
+  },
+  "related_prefixes": [],
+  "type": "prefix",
+  "announced": true
+}

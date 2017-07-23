@@ -1,0 +1,117 @@
+{
+  "query_endtime": "2017-07-21T00:00:00",
+  "query_starttime": "2000-01-01T00:00:00",
+  "resource": "140.78.0.0/16",
+  "results": {
+    "IANA": [
+      {
+        "status": "Various Registries",
+        "timelines": [
+          {
+            "endtime": "2002-12-07T00:00:00",
+            "starttime": "2002-12-07T00:00:00"
+          },
+          {
+            "endtime": "2003-02-04T00:00:00",
+            "starttime": "2003-01-24T00:00:00"
+          },
+          {
+            "endtime": "2003-10-01T00:00:00",
+            "starttime": "2003-04-09T00:00:00"
+          },
+          {
+            "endtime": "2003-12-05T00:00:00",
+            "starttime": "2003-12-05T00:00:00"
+          },
+          {
+            "endtime": "2004-02-07T00:00:00",
+            "starttime": "2004-02-07T00:00:00"
+          },
+          {
+            "endtime": "2008-02-21T00:00:00",
+            "starttime": "2004-06-03T00:00:00"
+          }
+        ],
+        "resource": "140.0.0.0/8"
+      },
+      {
+        "status": "Administered by APNIC, LEGACY",
+        "timelines": [
+          {
+            "endtime": "2008-03-27T00:00:00",
+            "starttime": "2008-02-22T00:00:00"
+          }
+        ],
+        "resource": "140.0.0.0/8"
+      },
+      {
+        "status": "Administered by ARIN, LEGACY",
+        "timelines": [
+          {
+            "endtime": "2009-01-13T00:00:00",
+            "starttime": "2008-03-28T00:00:00"
+          },
+          {
+            "endtime": "2010-05-07T00:00:00",
+            "starttime": "2009-01-14T00:00:00"
+          },
+          {
+            "endtime": "2017-07-21T00:00:00",
+            "starttime": "2010-05-08T00:00:00"
+          }
+        ],
+        "resource": "140.0.0.0/8"
+      },
+      {
+        "status": "Various Registries",
+        "timelines": [
+          {
+            "endtime": "2000-02-29T00:00:00",
+            "starttime": "2000-02-29T00:00:00"
+          },
+          {
+            "endtime": "2000-12-04T00:00:00",
+            "starttime": "2000-08-15T00:00:00"
+          },
+          {
+            "endtime": "2001-10-04T00:00:00",
+            "starttime": "2001-10-04T00:00:00"
+          },
+          {
+            "endtime": "2002-06-01T00:00:00",
+            "starttime": "2001-12-11T00:00:00"
+          },
+          {
+            "endtime": "2002-08-02T00:00:00",
+            "starttime": "2002-08-02T00:00:00"
+          },
+          {
+            "endtime": "2002-10-17T00:00:00",
+            "starttime": "2002-08-13T00:00:00"
+          }
+        ],
+        "resource": "128-191/8"
+      }
+    ],
+    "RIPE NCC": [
+      {
+        "status": "ASSIGNED",
+        "timelines": [
+          {
+            "endtime": "2004-03-26T00:00:00",
+            "starttime": "2003-11-26T00:00:00"
+          },
+          {
+            "endtime": "2012-05-21T00:00:00",
+            "starttime": "2004-03-27T00:00:00"
+          },
+          {
+            "endtime": "2017-07-21T00:00:00",
+            "starttime": "2012-05-22T00:00:00"
+          }
+        ],
+        "resource": "140.78.0.0-140.78.255.255"
+      }
+    ]
+  }
+}

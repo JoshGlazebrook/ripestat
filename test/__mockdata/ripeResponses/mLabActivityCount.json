@@ -1,0 +1,7 @@
+{
+  "query_endtime": "2017-05-10T23:59:59",
+  "query_starttime": "2017-05-03T23:59:59",
+  "perc_coverage": 0.01678466796875,
+  "resource": "193.0.0.0/16",
+  "nr_ips": 11
+}

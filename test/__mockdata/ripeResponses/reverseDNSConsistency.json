@@ -1,0 +1,89 @@
+{
+  "query_time": "2017-07-22T23:20:00",
+  "resource": "193.0.0.0/21",
+  "prefixes": {
+    "ipv4": {
+      "193.0.0.0/21": {
+        "domains": [
+          {
+            "found": true,
+            "domain": "0.0.193.in-addr.arpa",
+            "dnscheck": {
+              "status": "OK",
+              "time": "2017-06-01T05:43:48"
+            },
+            "prefix": "193.0.0.0/24"
+          },
+          {
+            "found": true,
+            "domain": "1.0.193.in-addr.arpa",
+            "dnscheck": {
+              "status": "OK",
+              "time": "2017-06-01T01:59:31"
+            },
+            "prefix": "193.0.1.0/24"
+          },
+          {
+            "found": true,
+            "domain": "2.0.193.in-addr.arpa",
+            "dnscheck": {
+              "status": "ERROR",
+              "time": "2017-06-06T13:47:50"
+            },
+            "prefix": "193.0.2.0/24"
+          },
+          {
+            "found": true,
+            "domain": "3.0.193.in-addr.arpa",
+            "dnscheck": {
+              "status": "OK",
+              "time": "2017-06-01T01:59:33"
+            },
+            "prefix": "193.0.3.0/24"
+          },
+          {
+            "found": true,
+            "domain": "4.0.193.in-addr.arpa",
+            "dnscheck": {
+              "status": "OK",
+              "time": "2017-06-01T21:48:51"
+            },
+            "prefix": "193.0.4.0/24"
+          },
+          {
+            "found": true,
+            "domain": "5.0.193.in-addr.arpa",
+            "dnscheck": {
+              "status": "OK",
+              "time": "2017-06-01T21:56:01"
+            },
+            "prefix": "193.0.5.0/24"
+          },
+          {
+            "found": true,
+            "domain": "6.0.193.in-addr.arpa",
+            "dnscheck": {
+              "status": "OK",
+              "time": "2017-06-01T21:48:52"
+            },
+            "prefix": "193.0.6.0/24"
+          },
+          {
+            "found": true,
+            "domain": "7.0.193.in-addr.arpa",
+            "dnscheck": {
+              "status": "OK",
+              "time": "2017-06-02T00:37:52"
+            },
+            "prefix": "193.0.7.0/24"
+          }
+        ],
+        "complete": true
+      }
+    },
+    "ipv6": {}
+  },
+  "source": "input",
+  "ipv4": true,
+  "ipv6": true
+}

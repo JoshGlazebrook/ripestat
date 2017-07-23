@@ -1,0 +1,35 @@
+{
+  "query_time": "2017-07-22T23:20:00",
+  "resource": "www.ripe.net",
+  "reverse_nodes": {
+    "2001:67c:2e8:22::c100:68b": [
+      "www.ipv6.ripe.net"
+    ],
+    "193.0.6.139": [
+      "www.ripe.net"
+    ]
+  },
+  "nameservers": [
+    "193.0.19.102",
+    "193.0.19.103",
+    "193.0.19.101"
+  ],
+  "authoritative_nameservers": [
+    "a2.verisigndns.com",
+    "sns-pb.isc.org",
+    "a1.verisigndns.com",
+    "a3.verisigndns.com",
+    "tinnie.arin.net",
+    "manus.authdns.ripe.net",
+    "sec3.apnic.net"
+  ],
+  "forward_nodes": {
+    "www.ipv6.ripe.net": [
+      "2001:67c:2e8:22::c100:68b"
+    ],
+    "www.ripe.net": [
+      "193.0.6.139",
+      "2001:67c:2e8:22::c100:68b"
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "query_time": "2017-07-23T00:31:00",
+  "query_term": "RIPE",
+  "limit": 50,
+  "categories": [
+    {
+      "category": "ASNs",
+      "suggestions": [
+        {
+          "description": "RIPE-MEETING-AS, NL",
+          "value": "AS2121",
+          "label": "AS2121"
+        },
+        {
+          "description": "RIPE-NCC-AS Reseaux IP Europeens Network Coordination Centre (RIPE NCC), NL",
+          "value": "AS3333",
+          "label": "AS3333"
+        },
+        {
+          "description": "RIPE-NCC-RIS-AS Reseaux IP Europeens Network Coordination Centre (RIPE NCC), EU",
+          "value": "AS12654",
+          "label": "AS12654"
+        },
+        {
+          "description": "RIPE, DE",
+          "value": "AS12898",
+          "label": "AS12898"
+        },
+        {
+          "description": "RIPE-AT-AS, AT",
+          "value": "AS34964",
+          "label": "AS34964"
+        },
+        {
+          "description": "RIPE-NCC-RIS-4BYTE-AS, EU",
+          "value": "AS196615",
+          "label": "AS196615"
+        },
+        {
+          "description": "RIPE-NCC-AUTHDNS-AS Reseaux IP Europeens Network Coordination Centre (RIPE NCC), EU",
+          "value": "AS197000",
+          "label": "AS197000"
+        },
+        {
+          "description": "RIPE-NCC-DR-AS, SE",
+          "value": "AS201965",
+          "label": "AS201965"
+        }
+      ]
+    },
+    {
+      "category": "Domains",
+      "suggestions": [
+        {
+          "description": "riperam.org ranks #20608 on Alexa.com",
+          "value": "riperam.org",
+          "label": "riperam.org"
+        },
+        {
+          "description": "ripe.net ranks #29589 on Alexa.com",
+          "value": "ripe.net",
+          "label": "ripe.net"
+        },
+        {
+          "description": "ripemom.com ranks #111610 on Alexa.com",
+          "value": "ripemom.com",
+          "label": "ripemom.com"
+        },
+        {
+          "description": "ripe.ml ranks #161605 on Alexa.com",
+          "value": "ripe.ml",
+          "label": "ripe.ml"
+        },
+        {
+          "description": "ripetwats.com ranks #219181 on Alexa.com",
+          "value": "ripetwats.com",
+          "label": "ripetwats.com"
+        },
+        {
+          "description": "riper.am ranks #273336 on Alexa.com",
+          "value": "riper.am",
+          "label": "riper.am"
+        },
+        {
+          "description": "ripepussy.com ranks #546146 on Alexa.com",
+          "value": "ripepussy.com",
+          "label": "ripepussy.com"
+        },
+        {
+          "description": "ripeace.wordpress.com ranks #562014 on Alexa.com",
+          "value": "ripeace.wordpress.com",
+          "label": "ripeace.wordpress.com"
+        },
+        {
+          "description": "ripe.cf ranks #588536 on Alexa.com",
+          "value": "ripe.cf",
+          "label": "ripe.cf"
+        },
+        {
+          "description": "ripecunts.com ranks #719333 on Alexa.com",
+          "value": "ripecunts.com",
+          "label": "ripecunts.com"
+        },
+        {
+          "description": "ripenear.me ranks #926477 on Alexa.com",
+          "value": "ripenear.me",
+          "label": "ripenear.me"
+        },
+        {
+          "description": "ripevaginas.com ranks #986231 on Alexa.com",
+          "value": "ripevaginas.com",
+          "label": "ripevaginas.com"
+        },
+        {
+          "description": "ripevulva.com ranks #994317 on Alexa.com",
+          "value": "ripevulva.com",
+          "label": "ripevulva.com"
+        }
+      ]
+    },
+    {
+      "category": "Site Navigation",
+      "suggestions": [
+        {
+          "link": "/",
+          "description": "Go to RIPEstat Home",
+          "value": "RIPEstat Home",
+          "label": "RIPEstat Home"
+        },
+        {
+          "link": "/index/about-ripestat",
+          "description": "Go to About RIPEstat",
+          "value": "About RIPEstat",
+          "label": "About RIPEstat"
+        }
+      ]
+    },
+    {
+      "category": "Special",
+      "suggestions": [
+        {
+          "link": "/widget/atlas-targets",
+          "description": "Go to the RIPE Atlas Measurement Targets widget",
+          "value": "Go to RIPE Atlas Measurement Targets",
+          "label": "RIPE Atlas Measurement Targets"
+        },
+        {
+          "link": "/widget/atlas-probes",
+          "description": "Go to the RIPE Atlas Probes widget",
+          "value": "Go to RIPE Atlas Probes",
+          "label": "RIPE Atlas Probes"
+        }
+      ]
+    }
+  ]
+}

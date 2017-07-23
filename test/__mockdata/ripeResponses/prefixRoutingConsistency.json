@@ -1,0 +1,17 @@
+{
+  "routes": [
+    {
+      "origin": 3333,
+      "irr_sources": [
+        "RIPE"
+      ],
+      "in_whois": true,
+      "asn_name": "RIPE-NCC-AS - Reseaux IP Europeens Network Coordination Centre (RIPE NCC)",
+      "prefix": "193.0.20.0/23",
+      "in_bgp": true
+    }
+  ],
+  "query_starttime": "2017-07-22T16:00:00",
+  "query_endtime": "2017-07-22T16:00:00",
+  "resource": "193.0.20.0/24"
+}

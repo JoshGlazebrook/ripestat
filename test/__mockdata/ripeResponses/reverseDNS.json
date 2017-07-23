@@ -1,0 +1,550 @@
+{
+  "query_time": "2017-07-22T23:20:00",
+  "resource": "193.0.0.0/21",
+  "delegations": [
+    [
+      {
+        "value": "0.0.193.in-addr.arpa",
+        "key": "domain"
+      },
+      {
+        "value": "RIPE NCC Internal Use",
+        "key": "descr"
+      },
+      {
+        "value": "JDR-RIPE",
+        "key": "admin-c"
+      },
+      {
+        "value": "OPS4-RIPE",
+        "key": "tech-c"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "zone-c"
+      },
+      {
+        "value": "RIPE-GII-MNT",
+        "key": "mnt-by"
+      },
+      {
+        "value": "2002-07-05T11:37:47Z",
+        "key": "created"
+      },
+      {
+        "value": "2016-11-07T19:38:25Z",
+        "key": "last-modified"
+      },
+      {
+        "value": "RIPE",
+        "key": "source"
+      },
+      {
+        "value": "manus.authdns.ripe.net",
+        "key": "nserver"
+      },
+      {
+        "value": "sns-pb.isc.org",
+        "key": "nserver"
+      },
+      {
+        "value": "sec3.apnic.net",
+        "key": "nserver"
+      },
+      {
+        "value": "tinnie.arin.net",
+        "key": "nserver"
+      },
+      {
+        "value": "a1.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a2.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a3.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "56794 8 2 dcf6270663e514d4a501161f6e4e7cda7d9b21f60dabb1810add17a1e7ab5e3b",
+        "key": "ds-rdata"
+      }
+    ],
+    [
+      {
+        "value": "1.0.193.in-addr.arpa",
+        "key": "domain"
+      },
+      {
+        "value": "RIPE NCC Internal Use",
+        "key": "descr"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "admin-c"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "tech-c"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "zone-c"
+      },
+      {
+        "value": "RIPE-GII-MNT",
+        "key": "mnt-by"
+      },
+      {
+        "value": "2002-07-05T11:38:36Z",
+        "key": "created"
+      },
+      {
+        "value": "2016-11-07T19:38:25Z",
+        "key": "last-modified"
+      },
+      {
+        "value": "RIPE",
+        "key": "source"
+      },
+      {
+        "value": "manus.authdns.ripe.net",
+        "key": "nserver"
+      },
+      {
+        "value": "sns-pb.isc.org",
+        "key": "nserver"
+      },
+      {
+        "value": "sec3.apnic.net",
+        "key": "nserver"
+      },
+      {
+        "value": "tinnie.arin.net",
+        "key": "nserver"
+      },
+      {
+        "value": "a1.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a2.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a3.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "26807 8 2 e93ea37764a9193ba7a8b111ebb65a722d0d765b60c409dd51b578fe50bdd00e",
+        "key": "ds-rdata"
+      }
+    ],
+    [
+      {
+        "value": "2.0.193.in-addr.arpa",
+        "key": "domain"
+      },
+      {
+        "value": "RIPE NCC Internal Use",
+        "key": "descr"
+      },
+      {
+        "value": "JDR-RIPE",
+        "key": "admin-c"
+      },
+      {
+        "value": "OPS4-RIPE",
+        "key": "tech-c"
+      },
+      {
+        "value": "OPS4-RIPE",
+        "key": "zone-c"
+      },
+      {
+        "value": "pike.singel.ripe.net",
+        "key": "nserver"
+      },
+      {
+        "value": "rom.singel.ripe.net",
+        "key": "nserver"
+      },
+      {
+        "value": "sisko.singel.ripe.net",
+        "key": "nserver"
+      },
+      {
+        "value": "RIPE-NCC-MNT",
+        "key": "mnt-by"
+      },
+      {
+        "value": "RIPE-GII-MNT",
+        "key": "mnt-by"
+      },
+      {
+        "value": "2002-07-05T11:39:53Z",
+        "key": "created"
+      },
+      {
+        "value": "2014-03-03T15:05:55Z",
+        "key": "last-modified"
+      },
+      {
+        "value": "RIPE",
+        "key": "source"
+      }
+    ],
+    [
+      {
+        "value": "3.0.193.in-addr.arpa",
+        "key": "domain"
+      },
+      {
+        "value": "RIPE NCC Internal Use",
+        "key": "descr"
+      },
+      {
+        "value": "JDR-RIPE",
+        "key": "admin-c"
+      },
+      {
+        "value": "OPS4-RIPE",
+        "key": "tech-c"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "zone-c"
+      },
+      {
+        "value": "RIPE-GII-MNT",
+        "key": "mnt-by"
+      },
+      {
+        "value": "2002-07-05T11:40:32Z",
+        "key": "created"
+      },
+      {
+        "value": "2016-11-07T19:38:26Z",
+        "key": "last-modified"
+      },
+      {
+        "value": "RIPE",
+        "key": "source"
+      },
+      {
+        "value": "manus.authdns.ripe.net",
+        "key": "nserver"
+      },
+      {
+        "value": "sns-pb.isc.org",
+        "key": "nserver"
+      },
+      {
+        "value": "sec3.apnic.net",
+        "key": "nserver"
+      },
+      {
+        "value": "tinnie.arin.net",
+        "key": "nserver"
+      },
+      {
+        "value": "a1.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a2.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a3.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "550 8 2 51d361811d020aaea1ac1dc534fa3e388a6c9f45379e8a7cdc0ea63e59e9f1b5",
+        "key": "ds-rdata"
+      }
+    ],
+    [
+      {
+        "value": "4.0.193.in-addr.arpa",
+        "key": "domain"
+      },
+      {
+        "value": "RIPE NCC Internal Use",
+        "key": "descr"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "admin-c"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "tech-c"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "zone-c"
+      },
+      {
+        "value": "RIPE-GII-MNT",
+        "key": "mnt-by"
+      },
+      {
+        "value": "2004-01-06T17:07:05Z",
+        "key": "created"
+      },
+      {
+        "value": "2016-11-07T19:38:26Z",
+        "key": "last-modified"
+      },
+      {
+        "value": "RIPE",
+        "key": "source"
+      },
+      {
+        "value": "manus.authdns.ripe.net",
+        "key": "nserver"
+      },
+      {
+        "value": "sns-pb.isc.org",
+        "key": "nserver"
+      },
+      {
+        "value": "sec3.apnic.net",
+        "key": "nserver"
+      },
+      {
+        "value": "tinnie.arin.net",
+        "key": "nserver"
+      },
+      {
+        "value": "a1.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a2.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a3.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "5264 8 2 3a9de54e7acbbca0072a9d1028574ea09eb6df529751a79922a88c7f83e19a38",
+        "key": "ds-rdata"
+      }
+    ],
+    [
+      {
+        "value": "5.0.193.in-addr.arpa",
+        "key": "domain"
+      },
+      {
+        "value": "RIPE NCC Internal Use",
+        "key": "descr"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "admin-c"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "tech-c"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "zone-c"
+      },
+      {
+        "value": "RIPE-GII-MNT",
+        "key": "mnt-by"
+      },
+      {
+        "value": "2004-01-08T14:14:54Z",
+        "key": "created"
+      },
+      {
+        "value": "2016-11-07T19:38:26Z",
+        "key": "last-modified"
+      },
+      {
+        "value": "RIPE",
+        "key": "source"
+      },
+      {
+        "value": "manus.authdns.ripe.net",
+        "key": "nserver"
+      },
+      {
+        "value": "sns-pb.isc.org",
+        "key": "nserver"
+      },
+      {
+        "value": "sec3.apnic.net",
+        "key": "nserver"
+      },
+      {
+        "value": "tinnie.arin.net",
+        "key": "nserver"
+      },
+      {
+        "value": "a1.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a2.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a3.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "54467 8 2 1e3a82d94a2fc568e7f5eb6718e3d320e1718084b7fccf8238b59524bea2a8a9",
+        "key": "ds-rdata"
+      }
+    ],
+    [
+      {
+        "value": "6.0.193.in-addr.arpa",
+        "key": "domain"
+      },
+      {
+        "value": "RIPE NCC Internal Use",
+        "key": "descr"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "admin-c"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "tech-c"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "zone-c"
+      },
+      {
+        "value": "RIPE-GII-MNT",
+        "key": "mnt-by"
+      },
+      {
+        "value": "2004-01-06T17:07:07Z",
+        "key": "created"
+      },
+      {
+        "value": "2016-11-07T19:38:26Z",
+        "key": "last-modified"
+      },
+      {
+        "value": "RIPE",
+        "key": "source"
+      },
+      {
+        "value": "manus.authdns.ripe.net",
+        "key": "nserver"
+      },
+      {
+        "value": "sns-pb.isc.org",
+        "key": "nserver"
+      },
+      {
+        "value": "sec3.apnic.net",
+        "key": "nserver"
+      },
+      {
+        "value": "tinnie.arin.net",
+        "key": "nserver"
+      },
+      {
+        "value": "a1.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a2.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a3.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "31409 8 2 7e3979c3dea2fb6fc70028f1a7dbe333c0518e24d4ae8d178b5f5cb8051b624a",
+        "key": "ds-rdata"
+      }
+    ],
+    [
+      {
+        "value": "7.0.193.in-addr.arpa",
+        "key": "domain"
+      },
+      {
+        "value": "RIPE NCC Internal Use",
+        "key": "descr"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "admin-c"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "tech-c"
+      },
+      {
+        "value": "GII-RIPE",
+        "key": "zone-c"
+      },
+      {
+        "value": "RIPE-GII-MNT",
+        "key": "mnt-by"
+      },
+      {
+        "value": "2004-03-26T11:16:16Z",
+        "key": "created"
+      },
+      {
+        "value": "2016-11-07T19:38:26Z",
+        "key": "last-modified"
+      },
+      {
+        "value": "RIPE",
+        "key": "source"
+      },
+      {
+        "value": "manus.authdns.ripe.net",
+        "key": "nserver"
+      },
+      {
+        "value": "sns-pb.isc.org",
+        "key": "nserver"
+      },
+      {
+        "value": "sec3.apnic.net",
+        "key": "nserver"
+      },
+      {
+        "value": "tinnie.arin.net",
+        "key": "nserver"
+      },
+      {
+        "value": "a1.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a2.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "a3.verisigndns.com",
+        "key": "nserver"
+      },
+      {
+        "value": "57760 8 2 8f90a311a3c050c4c7074f4c091f9d44bfcf5c4697dc62f09c6331e303f58d61",
+        "key": "ds-rdata"
+      }
+    ]
+  ]
+}

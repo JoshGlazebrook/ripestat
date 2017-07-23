@@ -1,0 +1,18 @@
+{
+  "prefixes": [
+    {
+      "prefix": "140.79.0.0/16",
+      "asn_name": "CSIRO Commonwealth Scientific and Industrial, AU",
+      "relationship": "Adjacency - Right",
+      "origin_asn": "6262"
+    },
+    {
+      "prefix": "140.77.0.0/16",
+      "asn_name": "FR-LYRES Lyon Recherche et Enseignement Sup�rieur (LyRES), FR",
+      "relationship": "Adjacency - Left",
+      "origin_asn": "1945"
+    }
+  ],
+  "query_time": "2017-07-21T17:23:00",
+  "resource": "140.78.0.0/16"
+}

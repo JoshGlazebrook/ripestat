@@ -1,0 +1,32 @@
+{
+  "assignments": [
+    {
+      "status": "ASSIGNED PA",
+      "parent_allocation": "193.0.0.0-193.0.23.255",
+      "address_range": "193.0.0.0/21",
+      "asn_name": "RIPE-NCC"
+    }
+  ],
+  "query_time": "2017-07-21T00:00:00",
+  "ip_stats": [
+    {
+      "status": "ASSIGNED PA",
+      "ips": 512
+    }
+  ],
+  "resource": "193.0.0.0/23",
+  "allocations": [
+    {
+      "allocation": "193.0.0.0-195.255.255.255",
+      "status": "ALLOCATED UNSPECIFIED",
+      "asn_name": "EU-ZZ-193",
+      "assignments": 0
+    },
+    {
+      "allocation": "193.0.0.0-193.0.23.255",
+      "status": "ALLOCATED PA",
+      "asn_name": "NL-RIPENCC-OPS-990305",
+      "assignments": 1
+    }
+  ]
+}

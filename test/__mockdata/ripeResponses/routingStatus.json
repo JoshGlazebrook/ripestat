@@ -1,0 +1,35 @@
+{
+  "query_time": "2017-07-22T16:00:00",
+  "resource": "3333",
+  "visibility": {
+    "v4": {
+      "total_ris_peers": 158,
+      "ris_peers_seeing": 158
+    },
+    "v6": {
+      "total_ris_peers": 160,
+      "ris_peers_seeing": 159
+    }
+  },
+  "announced_space": {
+    "v4": {
+      "prefixes": 6,
+      "ips": 4608
+    },
+    "v6": {
+      "prefixes": 1,
+      "48s": 1
+    }
+  },
+  "observed_neighbours": 242,
+  "first_seen": {
+    "origin": "3333",
+    "prefix": "193.0.0.0/22",
+    "time": "2000-08-18T08:00:00"
+  },
+  "last_seen": {
+    "origin": "3333",
+    "prefix": "193.0.22.0/23",
+    "time": "2017-07-22T16:00:00"
+  }
+}

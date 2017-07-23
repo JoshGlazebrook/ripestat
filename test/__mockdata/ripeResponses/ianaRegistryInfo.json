@@ -1,0 +1,26 @@
+{
+  "load_time": "2017-07-22T00:00:00",
+  "resource": "193.0.0.0/23",
+  "returned": 1,
+  "resources": [
+    {
+      "resource": "193.0.0.0/8",
+      "type_properties": [
+        "ip",
+        "v4",
+        "prefix"
+      ],
+      "description": "RIPE NCC (Status: ALLOCATED)",
+      "details": {
+        "WHOIS": "whois.ripe.net",
+        "Designation": "RIPE NCC",
+        "Note": "",
+        "RDAP": "https://rdap.db.ripe.net/",
+        "Status [1]": "ALLOCATED",
+        "Date": "1993-05"
+      },
+      "source": "IANA IPv4 Address Space Registry",
+      "source_url": "http://www.iana.org/assignments/ipv4-address-space/ipv4-address-space.csv"
+    }
+  ]
+}

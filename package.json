@@ -1,6 +1,6 @@
 {
   "name": "ripestat",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A fully featured client for the RIPE Stat Api.",
   "main": "build/index.js",
   "repository": {
@@ -13,7 +13,7 @@
   "keywords": ["ripestat", "ripe", "ris", "asn", "prefix", "ipv4", "ipv6", "apnic", "arin", "lacnic", "afrinic"],
   "scripts": {
     "lint": "tslint -p tslint.json",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "NODE_ENV=test mocha --recursive --timeout 30000 --compilers ts:ts-node/register test/index.ts",
     "build": "tslint -p tslint.json & prettier --single-quote --print-width 150 --write ./src/**/*.ts && tsc -p .",
     "prepublish": "npm run build"
   },
@@ -24,6 +24,13 @@
     "rest": "^2.0.0"
   },
   "devDependencies": {
-    "@types/node": "^8.0.9"
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^8.0.9",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "object-no-new-keys": "^1.0.3",
+    "ts-node": "^3.2.1",
+    "typescript": "^2.4.2"
   }
 }

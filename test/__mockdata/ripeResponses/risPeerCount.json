@@ -1,0 +1,36 @@
+{
+  "peer_count": {
+    "v4": {
+      "total": [
+        {
+          "count": 422,
+          "timestamp": "2017-05-16T08:00:00"
+        }
+      ],
+      "full_feed": [
+        {
+          "count": 149,
+          "timestamp": "2017-05-16T08:00:00"
+        }
+      ]
+    },
+    "v6": {
+      "total": [
+        {
+          "count": 270,
+          "timestamp": "2017-05-16T08:00:00"
+        }
+      ],
+      "full_feed": [
+        {
+          "count": 151,
+          "timestamp": "2017-05-16T08:00:00"
+        }
+      ]
+    }
+  },
+  "endtime": "2017-05-16T08:00:00",
+  "v4_full_prefix_threshold": 500000,
+  "starttime": "2017-05-16T08:00:00",
+  "v6_full_prefix_threshold": 25000
+}

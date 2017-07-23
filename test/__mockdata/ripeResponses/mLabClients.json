@@ -1,0 +1,86 @@
+{
+  "perc_coverage": 0.01678466796875,
+  "resource": "193.0.0.0/16",
+  "clients": {
+    "193.0.194.130": {
+      "latitude": 50.323699951171875,
+      "city": "Bedzin",
+      "num_tests": 6,
+      "longitude": 19.132299423217773,
+      "country": "PL"
+    },
+    "193.0.206.202": {
+      "latitude": 51.50550079345703,
+      "city": "Chernihiv",
+      "num_tests": 3,
+      "longitude": 31.284900665283203,
+      "country": "UA"
+    },
+    "193.0.206.124": {
+      "latitude": 51.50550079345703,
+      "city": "Chernihiv",
+      "num_tests": 3,
+      "longitude": 31.284900665283203,
+      "country": "UA"
+    },
+    "193.0.205.37": {
+      "latitude": 51.50550079345703,
+      "city": "Chernihiv",
+      "num_tests": 2,
+      "longitude": 31.284900665283203,
+      "country": "UA"
+    },
+    "193.0.152.7": {
+      "latitude": 46.10060119628906,
+      "city": "Kanevskaya",
+      "num_tests": 2,
+      "longitude": 38.897499084472656,
+      "country": "RU"
+    },
+    "193.0.206.253": {
+      "latitude": 51.50550079345703,
+      "city": "Chernihiv",
+      "num_tests": 2,
+      "longitude": 31.284900665283203,
+      "country": "UA"
+    },
+    "193.0.169.166": {
+      "latitude": 55.73860168457031,
+      "city": "",
+      "num_tests": 2,
+      "longitude": 37.6068000793457,
+      "country": "RU"
+    },
+    "193.0.206.66": {
+      "latitude": 51.50550079345703,
+      "city": "Chernihiv",
+      "num_tests": 2,
+      "longitude": 31.284900665283203,
+      "country": "UA"
+    },
+    "193.0.206.195": {
+      "latitude": 51.50550079345703,
+      "city": "Chernihiv",
+      "num_tests": 2,
+      "longitude": 31.284900665283203,
+      "country": "UA"
+    },
+    "193.0.196.42": {
+      "latitude": 52.233299255371094,
+      "city": "",
+      "num_tests": 2,
+      "longitude": 21.016700744628906,
+      "country": "PL"
+    },
+    "193.0.205.223": {
+      "latitude": 51.50550079345703,
+      "city": "Chernihiv",
+      "num_tests": 2,
+      "longitude": 31.284900665283203,
+      "country": "UA"
+    }
+  },
+  "query_starttime": "2017-05-03T23:59:59",
+  "nr_clients": 11,
+  "query_endtime": "2017-05-10T23:59:59"
+}

@@ -1,25 +1,17 @@
 {
-   "compileOnSave": true,
-    "compilerOptions": {
-        "target": "es2017",
-        "module": "commonjs",
-        "sourceMap": true,
-        "moduleResolution": "node",
-        "outDir": "build",
-        "watch": false,
-        "declaration": true,
-        "declarationDir": "typings",
-        "removeComments":false,
-        "noImplicitAny": true
-    },
-    "include": [
-        "src/**/*.ts",
-        "custom_typings/**/*.d.ts"
-    ],
-    "exclude": [
-      "node_modules",
-      "build",
-      "typings",
-      "test"
-    ]
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "outDir": "build",
+    "watch": false,
+    "declaration": true,
+    "declarationDir": "typings",
+    "removeComments": false,
+    "noImplicitAny": true
+  },
+  "include": ["src/**/*.ts", "custom_typings/**/*.d.ts"],
+  "exclude": ["node_modules", "build", "typings", "test"]
 }

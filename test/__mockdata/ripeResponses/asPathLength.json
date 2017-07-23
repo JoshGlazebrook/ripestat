@@ -1,0 +1,313 @@
+{
+  "resource": "3333",
+  "query_time": "2017-07-22T16:00:00",
+  "stats": [
+    {
+      "count": 106,
+      "stripped": {
+        "max": 8,
+        "sum": 439,
+        "avg": 4.1415094339622645,
+        "min": 1
+      },
+      "unstripped": {
+        "max": 10,
+        "sum": 503,
+        "avg": 4.745283018867925,
+        "min": 1
+      },
+      "number": 0,
+      "location": "RIPE-NCC Multihop, Amsterdam"
+    },
+    {
+      "count": 56,
+      "stripped": {
+        "max": 5,
+        "sum": 190,
+        "avg": 3.392857142857143,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 7,
+        "sum": 210,
+        "avg": 3.75,
+        "min": 2
+      },
+      "number": 1,
+      "location": "LINX, London"
+    },
+    {
+      "count": 77,
+      "stripped": {
+        "max": 4,
+        "sum": 207,
+        "avg": 2.688311688311688,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 16,
+        "sum": 297,
+        "avg": 3.857142857142857,
+        "min": 2
+      },
+      "number": 3,
+      "location": "AMS-IX / NL-IX, Amsterdam"
+    },
+    {
+      "count": 53,
+      "stripped": {
+        "max": 5,
+        "sum": 197,
+        "avg": 3.7169811320754715,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 7,
+        "sum": 227,
+        "avg": 4.283018867924528,
+        "min": 2
+      },
+      "number": 4,
+      "location": "CIXP, Geneva"
+    },
+    {
+      "count": 35,
+      "stripped": {
+        "max": 5,
+        "sum": 117,
+        "avg": 3.342857142857143,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 7,
+        "sum": 137,
+        "avg": 3.914285714285714,
+        "min": 2
+      },
+      "number": 5,
+      "location": "VIX, Vienna"
+    },
+    {
+      "count": 14,
+      "stripped": {
+        "max": 4,
+        "sum": 47,
+        "avg": 3.357142857142857,
+        "min": 3
+      },
+      "unstripped": {
+        "max": 4,
+        "sum": 47,
+        "avg": 3.357142857142857,
+        "min": 3
+      },
+      "number": 6,
+      "location": "DIX-IE, Tokyo"
+    },
+    {
+      "count": 47,
+      "stripped": {
+        "max": 5,
+        "sum": 135,
+        "avg": 2.872340425531915,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 7,
+        "sum": 155,
+        "avg": 3.297872340425532,
+        "min": 2
+      },
+      "number": 7,
+      "location": "Netnod, Stockholm"
+    },
+    {
+      "count": 71,
+      "stripped": {
+        "max": 5,
+        "sum": 268,
+        "avg": 3.7746478873239435,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 7,
+        "sum": 338,
+        "avg": 4.76056338028169,
+        "min": 2
+      },
+      "number": 10,
+      "location": "MIX, Milan"
+    },
+    {
+      "count": 68,
+      "stripped": {
+        "max": 5,
+        "sum": 254,
+        "avg": 3.735294117647059,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 7,
+        "sum": 284,
+        "avg": 4.176470588235294,
+        "min": 2
+      },
+      "number": 11,
+      "location": "NYIIX, New York City"
+    },
+    {
+      "count": 95,
+      "stripped": {
+        "max": 5,
+        "sum": 304,
+        "avg": 3.2,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 7,
+        "sum": 324,
+        "avg": 3.4105263157894736,
+        "min": 2
+      },
+      "number": 12,
+      "location": "DE-CIX, Frankfurt"
+    },
+    {
+      "count": 65,
+      "stripped": {
+        "max": 6,
+        "sum": 235,
+        "avg": 3.6153846153846154,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 8,
+        "sum": 285,
+        "avg": 4.384615384615385,
+        "min": 2
+      },
+      "number": 13,
+      "location": "MSK-IX, Moscow"
+    },
+    {
+      "count": 55,
+      "stripped": {
+        "max": 5,
+        "sum": 195,
+        "avg": 3.5454545454545454,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 6,
+        "sum": 205,
+        "avg": 3.727272727272727,
+        "min": 2
+      },
+      "number": 14,
+      "location": "PAIX, Palo Alto"
+    },
+    {
+      "count": 144,
+      "stripped": {
+        "max": 6,
+        "sum": 676,
+        "avg": 4.694444444444445,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 8,
+        "sum": 878,
+        "avg": 6.097222222222222,
+        "min": 2
+      },
+      "number": 15,
+      "location": "PTTMetro, Sao Paulo"
+    },
+    {
+      "count": 20,
+      "stripped": {
+        "max": 4,
+        "sum": 77,
+        "avg": 3.85,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 6,
+        "sum": 87,
+        "avg": 4.35,
+        "min": 2
+      },
+      "number": 16,
+      "location": "NOTA, Miami"
+    },
+    {
+      "count": 13,
+      "stripped": {
+        "max": 5,
+        "sum": 57,
+        "avg": 4.384615384615385,
+        "min": 4
+      },
+      "unstripped": {
+        "max": 7,
+        "sum": 67,
+        "avg": 5.153846153846154,
+        "min": 4
+      },
+      "number": 18,
+      "location": "Catnix, Barcelona"
+    },
+    {
+      "count": 63,
+      "stripped": {
+        "max": 5,
+        "sum": 261,
+        "avg": 4.142857142857143,
+        "min": 3
+      },
+      "unstripped": {
+        "max": 7,
+        "sum": 331,
+        "avg": 5.253968253968254,
+        "min": 3
+      },
+      "number": 19,
+      "location": "NAP Africa JB, Johannesburg"
+    },
+    {
+      "count": 137,
+      "stripped": {
+        "max": 5,
+        "sum": 521,
+        "avg": 3.802919708029197,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 7,
+        "sum": 631,
+        "avg": 4.605839416058394,
+        "min": 2
+      },
+      "number": 20,
+      "location": "SwissIX, Zurich"
+    },
+    {
+      "count": 131,
+      "stripped": {
+        "max": 5,
+        "sum": 468,
+        "avg": 3.572519083969466,
+        "min": 2
+      },
+      "unstripped": {
+        "max": 7,
+        "sum": 568,
+        "avg": 4.33587786259542,
+        "min": 2
+      },
+      "number": 21,
+      "location": "France-IX, Paris"
+    }
+  ],
+  "sort_by": "number"
+}

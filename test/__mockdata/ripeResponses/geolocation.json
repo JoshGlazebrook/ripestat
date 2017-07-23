@@ -1,0 +1,18 @@
+{
+  "resource": "193.0.0.0/23",
+  "query_time": "2017-07-04T00:00:00",
+  "lookup_resources": false,
+  "locations": [
+    {
+      "city": "Amsterdam",
+      "prefixes": [
+        "193.0.0.0/20"
+      ],
+      "country": "NL",
+      "longitude": 4.9167,
+      "covered_percentage": 100,
+      "latitude": 52.35
+    }
+  ],
+  "unknown_percentage": 0
+}

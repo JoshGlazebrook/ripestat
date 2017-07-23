@@ -1,0 +1,31 @@
+{
+  "query_endtime": "2017-07-22T00:00:00",
+  "sources": {
+    "uceprotect-level1": [
+      {
+        "timelines": [
+          {
+            "endtime": "2016-09-06T08:10:00",
+            "starttime": "2016-08-31T00:10:00"
+          },
+          {
+            "endtime": "2016-12-01T16:10:00",
+            "starttime": "2016-11-25T00:10:00"
+          },
+          {
+            "endtime": "2016-12-13T00:10:00",
+            "starttime": "2016-12-06T08:10:00"
+          },
+          {
+            "endtime": "2017-03-25T16:10:00",
+            "starttime": "2017-03-20T00:10:00"
+          }
+        ],
+        "prefix": "193.0.0.1/32",
+        "details": "no details"
+      }
+    ]
+  },
+  "resource": "193.0.0.0/23",
+  "query_starttime": "2009-06-22T14:10:00"
+}
