@@ -73,7 +73,7 @@ class RIPEClient {
   /**
  * Performs an API request to the RIPE Stat data api.
  *
- * @param {RIPEClient} client The RIPEClient instance to use.
+ * @param {rest.Client} client The Rest Client instance to use.
  * @param {string} path The data endpoint to use.
  * @param {object} options The options (url params values) to use.
  * @param {object} defaultOptions The default options (url params values) to use.
