@@ -7,7 +7,7 @@ const requestOptions = require('./__mockdata/requestOptions');
  *
  * Note: This should never really need to be used again.
  */
-function generateOriginMockDataPayloads() {
+export function generateOriginMockDataPayloads() {
   const client: any = new RIPEClient();
 
   const endpointMethods: string[] = Object.getOwnPropertyNames(Object.getPrototypeOf(client)).filter((item: string) => item !== 'constructor');
