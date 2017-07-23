@@ -1,8 +1,8 @@
-import { RIPEClient } from '../src/client/RIPEClient';
+/*import { RIPEClient } from '../src/client/RIPEClient';
 
 const client = new RIPEClient({
   sourceapp: 'app1'
-});
+});*/
 
 /*client
   .asOverview({
