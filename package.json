@@ -1,6 +1,6 @@
 {
   "name": "ripestat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fully featured client for the RIPE Stat Api.",
   "main": "build/index.js",
   "repository": {
@@ -13,8 +13,8 @@
   "keywords": ["ripestat", "ripe", "ris", "asn", "prefix", "ipv4", "ipv6", "apnic", "arin", "lacnic", "afrinic"],
   "scripts": {
     "lint": "tslint -p tslint.json",
-    "test": "NODE_ENV=test mocha --recursive --timeout 30000 --compilers ts:ts-node/register test/index.ts",
-    "build": "tslint -p tslint.json & prettier --single-quote --print-width 150 --write ./src/**/*.ts && tsc -p .",
+    "test": "NODE_ENV=test mocha --recursive --timeout 30000 --compilers ts:ts-node/register test/**.ts",
+    "build": "tslint -p tslint.json & prettier --parser=typescript --single-quote --print-width 150 --write ./src/**/*.ts && tsc -p .",
     "prepublish": "npm run build"
   },
   "author": "Josh Glazebrook",

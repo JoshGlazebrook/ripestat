@@ -1,5 +1,5 @@
 # ripestat  [![Build Status](https://travis-ci.org/JoshGlazebrook/ripestat.svg?branch=master)](https://travis-ci.org/JoshGlazebrook/ripestat)
-A fully featured RIPEStat Data API Client for JavaScript (node.js and browsers).
+A fully featured RIPEStat Data API Client for JavaScript (node.js and browser).
 
 ## Highlights
 - Built in TypeScript (definitions for everything!)
@@ -9,6 +9,9 @@ A fully featured RIPEStat Data API Client for JavaScript (node.js and browsers).
 - All methods returns promises (await/async ready)
 - Live API Tests (with mock data for comparison)
 
+## Notes
+- Tested with node.js (v6+)
+- Tested with webpack v2
 
 ## Installing
 
@@ -21,7 +24,7 @@ npm install ripestat --save
 
 ## Usage
 
-```typescript
+```javascript
 // TypeScript/ES6
 import { RIPEClient, RipeClientOptions } from 'ripeclient';
 
@@ -58,7 +61,7 @@ client.asOverview({
 
 ## Usage (await/async)
 
-```typescript
+```javascript
 async function getOverview() {
   // All client methods return a promise.
   const result = await client.asOverview({
@@ -84,10 +87,45 @@ async function getOverview() {
   **/
 }
 ```
+## RIPEClient Options
+```
+/**
+ * Options for creating a RIPEClient.
+ */
+interface RIPEClientOptions {
+  /**
+   * If provided, this agent will be used when making https requests.
+   */
+  agent?: https.Agent;
+
+  /**
+   * The length of time (in milliseconds) to wait for a response.
+   */
+  timeout?: number;
+
+  /**
+   * The sourceapp string to pass to all API calls (RIPE Stat asks you to include this if you use more than 1000 queries per day).
+   * This is passed in the sourceapp query parameter.
+   */
+  sourceapp?: string;
+}
+```
+
+**Example:**
+```javascript
+const client = new RIPEClient({
+  timeout: 60000,
+  sourceapp: 'my app'
+});
+```
 
 ## API Documenation
 
 For details on every API endpoint available please reference [https://stat.ripe.net/docs/data_api](https://stat.ripe.net/docs/data_api)
+
+
+## Globally Available Option Params
+- meta - See: [https://stat.ripe.net/docs/data_api#MetaRequest](https://stat.ripe.net/docs/data_api#MetaRequest)
 
 ## License
 

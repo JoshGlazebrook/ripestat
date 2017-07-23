@@ -6,7 +6,6 @@ import errorCode = require('rest/interceptor/errorCode');
 import timeout = require('rest/interceptor/timeout');
 import template = require('rest/interceptor/template');
 import defaultRequest = require('rest/interceptor/defaultRequest');
-import jsonp = require('rest/interceptor/jsonp');
 
 import { convertDatesToStrings } from '../util/RIPEClientHelpers';
 
@@ -34,11 +33,6 @@ interface RIPEClientOptions {
    * The sourceapp string to pass to all API calls (RIPE Stat asks you to include this if you use more than 1000 queries per day)
    */
   sourceapp?: string;
-
-  /**
-   * If true, underlying api calls will wrap themselves using JSONP.
-   */
-  jsonp?: boolean;
 }
 
 const DEFAULT_OPTIONS: RIPEClientOptions = {
@@ -74,11 +68,6 @@ class RIPEClient {
       .wrap<timeout.Config>(timeout, {
         timeout: options.timeout
       });
-
-    // Add jsonp if enabled.
-    if (options.jsonp) {
-      this.client = this.client.wrap<jsonp.Config>(jsonp);
-    }
   }
 
   /**
