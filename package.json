@@ -1,6 +1,6 @@
 {
   "name": "ripestat",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "A fully featured client for the RIPE Stat Api.",
   "main": "build/index.js",
   "repository": {
