@@ -31,7 +31,7 @@ export * from '../data/MLabClients';
 export * from '../data/NetworkInfo';
 export * from '../data/PrefixCount';
 export * from '../data/PrefixOverview';
-export * from '../data/PrefixRoutingconsistency';
+export * from '../data/PrefixRoutingConsistency';
 export * from '../data/PrefixSizeDistribution';
 export * from '../data/RegistryBrowser';
 export * from '../data/RelatedPrefixes';
