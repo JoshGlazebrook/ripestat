@@ -130,6 +130,9 @@ For details on every API endpoint available please reference [https://stat.ripe.
 ## Bug Reporting
 Please feel free to open any issues if you find any problems with the Client or even the documentation.
 
+## Tests
+Tests for this module are currently a work in progress. Mock data vs. live data diff comparison is as-is, but will be improved in the future.
+
 ## License
 
 This work is licensed under the [MIT license](http://en.wikipedia.org/wiki/MIT_License).

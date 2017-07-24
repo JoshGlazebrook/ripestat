@@ -1,4 +1,5 @@
 import { RIPEClient } from '../src/';
+import * as deepDiff from 'deep-diff';
 import * as fs from 'fs';
 const requestOptions = require('./__mockdata/requestOptions');
 
@@ -24,4 +25,14 @@ export function generateOriginMockDataPayloads() {
         console.log(err);
       });
   }
+}
+
+/**
+ * Compares two objects with deep-diff and returns an array of additions/removals of properties between the two objects.
+ * @param obj1 The new object to compare.
+ * @param obj2 The reference object to compare.
+ */
+export function compareObjects(obj1: object, obj2: object) {
+  const result = deepDiff.diff(obj1, obj2) || [];
+  return result.filter(diff => diff.kind === 'D' || diff.kind === 'N');
 }

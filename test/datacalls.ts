@@ -1,8 +1,9 @@
 import { RIPEClient } from '../src';
 import 'mocha';
 import { assert } from 'chai';
+import * as deepDiff from 'deep-diff';
+import { compareObjects } from './util';
 
-const objectNoNewKeys = require('object-no-new-keys');
 const client = new RIPEClient();
 const requestOptions = require('./__mockdata/requestOptions');
 
@@ -19,7 +20,8 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.abuseContactFinder(requestOptions.abuseContactFinder).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
+
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -30,7 +32,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.addressSpaceHierarchy(requestOptions.addressSpaceHierarchy).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -41,7 +43,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.addressSpaceUsage(requestOptions.addressSpaceUsage).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -52,7 +54,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.allocationHistory(requestOptions.allocationHistory).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -63,7 +65,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.announcedPrefixes(requestOptions.announcedPrefixes).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -74,7 +76,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.asOverview(requestOptions.asOverview).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -85,7 +87,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.asPathLength(requestOptions.asPathLength).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -96,7 +98,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.asRoutingConsistency(requestOptions.asRoutingConsistency).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -107,7 +109,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.asnNeighbors(requestOptions.asnNeighbors).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -118,7 +120,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.asnNeighborsHistory(requestOptions.asnNeighborsHistory).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -129,7 +131,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.atlasProbeDeployment(requestOptions.atlasProbeDeployment).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -140,7 +142,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.atlasProbes(requestOptions.atlasProbes).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -151,7 +153,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.atlasTargets(requestOptions.atlasTargets).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -162,7 +164,8 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.bgPlay(requestOptions.bgPlay).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
+        console.log(comparisonResult);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -173,7 +176,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.bgpState(requestOptions.bgpState).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -184,7 +187,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.bgpUpdates(requestOptions.bgpUpdates).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -195,7 +198,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.bgpUpdateActivity(requestOptions.bgpUpdateActivity).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -206,7 +209,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.blacklist(requestOptions.blacklist).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -217,7 +220,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.countryASNS(requestOptions.countryASNS).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -228,7 +231,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.countryResourceStats(requestOptions.countryResourceStats).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -239,7 +242,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.countryResourceList(requestOptions.countryResourceList).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -250,7 +253,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.dnsChain(requestOptions.dnsChain).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -261,7 +264,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.exampleResources().then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -272,7 +275,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.geolocation(requestOptions.geolocation).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -283,7 +286,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.gelocationHistory(requestOptions.gelocationHistory).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -294,7 +297,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.ianaRegistryInfo(requestOptions.ianaRegistryInfo).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -305,7 +308,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.lookingGlass(requestOptions.lookingGlass).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -316,7 +319,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.mLabActivityCount(requestOptions.mLabActivityCount).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -327,7 +330,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.mLabBandwidth(requestOptions.mLabBandwidth).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -338,7 +341,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.mLabClients(requestOptions.mLabClients).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -349,7 +352,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.networkInfo(requestOptions.networkInfo).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -360,7 +363,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.prefixCount(requestOptions.prefixCount).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -371,7 +374,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.prefixOverview(requestOptions.prefixOverview).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -382,7 +385,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.prefixRoutingConsistency(requestOptions.prefixRoutingConsistency).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -393,7 +396,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.prefixSizeDistribution(requestOptions.prefixSizeDistribution).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -404,7 +407,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.registryBrowser(requestOptions.registryBrowser).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -415,7 +418,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.rir(requestOptions.rir).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -426,7 +429,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.rirPrefixSizeDistribution(requestOptions.rirPrefixSizeDistribution).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -437,7 +440,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.risASNS(requestOptions.risASNS).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -448,7 +451,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.risFirstLastSeen(requestOptions.risFirstLastSeen).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -459,7 +462,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.risPrefixes(requestOptions.risPrefixes).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -470,7 +473,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.risPeerings(requestOptions.risPeerings).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -481,7 +484,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.risPeerCount(requestOptions.risPeerCount).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -492,7 +495,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.relatedPrefixes(requestOptions.relatedPrefixes).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -503,7 +506,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.reverseDNS(requestOptions.reverseDNS).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -514,7 +517,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.reverseDNSIP(requestOptions.reverseDNSIP).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -525,7 +528,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.reverseDNSConsistency(requestOptions.reverseDNSConsistency).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -536,7 +539,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.routingHistory(requestOptions.routingHistory).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -547,7 +550,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.routingStatus(requestOptions.routingStatus).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -558,7 +561,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.searchComplete(requestOptions.searchComplete).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData, { mode: 1 });
+        const comparisonResult = compareObjects(result.data, mockData);
 
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
@@ -570,7 +573,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.speedCheckerBandwidthMeasurements(requestOptions.speedCheckerBandwidthMeasurements).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -581,7 +584,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.visibility(requestOptions.visibility).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -592,7 +595,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.whatsMyIp().then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -603,7 +606,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.whois(requestOptions.whois).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
@@ -614,7 +617,7 @@ describe('Live API Data Tests', () => {
 
     it('live data should match mock data object properties', () => {
       return client.whoisObjectLastUpdated(requestOptions.whoisObjectLastUpdated).then(result => {
-        const comparisonResult = objectNoNewKeys(result.data, mockData);
+        const comparisonResult = compareObjects(result.data, mockData);
         assert(comparisonResult.length === 0, `Mock/Live Data Differs: ${comparisonResult}`);
       });
     });
