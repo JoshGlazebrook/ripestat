@@ -88,7 +88,7 @@ async function getOverview() {
 }
 ```
 ## RIPEClient Options
-```
+```javascript
 /**
  * Options for creating a RIPEClient.
  */
