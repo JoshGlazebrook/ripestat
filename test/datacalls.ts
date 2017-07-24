@@ -1,7 +1,6 @@
 import { RIPEClient } from '../src';
 import 'mocha';
 import { assert } from 'chai';
-import * as deepDiff from 'deep-diff';
 import { compareObjects } from './util';
 
 const client = new RIPEClient();
