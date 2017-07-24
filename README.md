@@ -3,10 +3,10 @@ A fully featured RIPEStat Data API Client for JavaScript (node.js and browser).
 
 ## Highlights
 - Built in TypeScript (definitions for everything!)
-- Documentation for every api method
+- Documentation for every api method (as of July 2017)
 - Documentation for *almost* every api response property
 - All RIPEStat API endpoints are covered
-- All methods returns promises (await/async ready)
+- All methods return promises (await/async ready)
 - Live API Tests (with mock data for comparison)
 
 ## Notes
